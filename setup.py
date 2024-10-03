@@ -6,7 +6,7 @@ def find_required():
         return f.read().splitlines()
 
 setup(
-    name="fresh-deps",
+    name="freshdeps",
     version="1.0.0",
     description="Keep your Python dependencies fresh",
     long_description=open("README.md").read(),
@@ -14,7 +14,7 @@ setup(
     author="Nikita Tsvetkov",
     author_email="pychapter@2gis.ru",
     python_requires=">=3.8",
-    url="https://gitlab.2gis.ru/pychapter/fresh-deps",
+    url="https://github.com/Kater913/freshdeps",
     packages=find_packages(exclude=("tests",)),
     package_data={"fresh_deps": ["py.typed"]},
     entry_points={
