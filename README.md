@@ -1,10 +1,18 @@
+[![PyPI](https://img.shields.io/pypi/v/freshdeps.svg?style=flat-square&color=rgb(24,114,110,0.8))](https://pypi.python.org/pypi/freshdeps/)
+[![Python Version](https://img.shields.io/pypi/pyversions/freshdeps.svg?style=flat-square&color=rgb(14,90,166,0.8))](https://pypi.python.org/pypi/freshdeps/)
+
 # FreshDeps
 
 FreshDeps is a Python tool designed to keep your project's dependencies up-to-date by automatically updating your requirements.txt file from requirements.in.
  
 It integrates with GitLab to create merge requests (MRs) for dependency updates, ensuring that you always have fresh and secure dependencies in your project.
 
-#### Features
+- [Features](#features)
+- [Installation](#installation)
+- [Usage GitLab CI](#usage-gitlab-ci)
+
+
+## Features
 - Automatically updates Python dependencies using pip-compile.
 - Creates GitLab merge requests with updated dependencies.
 - Supports assigning MRs to specific users.
@@ -22,7 +30,7 @@ pip install freshdeps
 
 ## Usage GitLab CI
 
-#### To use FreshDeps, add [job](https://docs.gitlab.com/ee/ci/jobs/) and create [scheduled pipeline](https://docs.gitlab.com/ee/ci/pipelines/schedules.html):
+#### To use FreshDeps add [job](https://docs.gitlab.com/ee/ci/jobs/) and create [scheduled pipeline](https://docs.gitlab.com/ee/ci/pipelines/schedules.html):
 
 
 ```yml
