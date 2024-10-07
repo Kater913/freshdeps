@@ -11,7 +11,7 @@ setup(
     description="Keep your Python dependencies fresh",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Nikita Tsvetkov",
+    author="Nikita",
     author_email="pychapter@2gis.ru",
     python_requires=">=3.8",
     url="https://github.com/Kater913/freshdeps",
