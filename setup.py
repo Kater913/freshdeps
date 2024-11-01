@@ -7,12 +7,12 @@ def find_required():
 
 setup(
     name="freshdeps",
-    version="1.0.1",
+    version="1.0.3",
     description="Keep your Python dependencies fresh",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Nikita",
-    author_email="pychapter@2gis.ru",
+    author="Kate",
+    author_email="kater913@yandex.ru",
     python_requires=">=3.8",
     url="https://github.com/Kater913/freshdeps",
     packages=find_packages(exclude=("tests",)),
